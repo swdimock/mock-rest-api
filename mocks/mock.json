@@ -1,0 +1,100 @@
+{
+  "flow": {
+    "status": "success",
+    "code": "200",
+    "count": 2,
+    "data": [
+      {
+        "id": 1,
+        "title": "Some Title",
+        "subtitle": "Holy subtitles!",
+        "content": "<p>Our session together will expose you to interventions and strategies that have been proven through new scientific studies and through real world experiences to help people reach their brain/body performance goals.</p>",
+        "media": "./assets/mock/mock-video.mp4",
+        "inputs": [
+          {
+            "label": "Select Input",
+            "type": "select",
+            "name": "selector-baby",
+            "placeholder": "Choose one, friend!",
+            "options": [
+              "Option 1",
+              "Option 2"
+            ]
+          },
+          {
+            "type": "break"
+          },
+          {
+            "label": "Text Input",
+            "type": "text",
+            "name": "something"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "label": "Textarea",
+            "type": "textarea",
+            "name": "somethingelse",
+            "limit": 250
+          },
+          {
+            "type": "radio",
+            "name": "radioed",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "label": "Next",
+            "type": "button",
+            "name": "next",
+            "attributes": "data-test: something",
+            "target": 2
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Some Other Title",
+        "content": "Some Other Content",
+        "media": "./assets/mock/mock-audio.mp3",
+        "inputs": [
+          {
+            "label": "Forward",
+            "type": "button",
+            "name": "last",
+            "attributes": "data-test: something-else",
+            "target": 3
+          },
+          {
+            "label": "Back",
+            "type": "button",
+            "name": "first",
+            "attributes": "data-test: something-else",
+            "target": 1
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Some Final Title",
+        "content": "Some Final Content",
+        "video": "",
+        "audio": "",
+        "inputs": [
+          {
+            "label": "Back",
+            "type": "button",
+            "name": "beginning",
+            "attributes": "data-test: something-else",
+            "target": 1
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "flow": {
+    "status": "success",
+    "code": "200",
+    "count": 2,
+    "data": [
+      {
+        "id": 1,
+        "title": "Welcome",
+        "subtitle": "Is your sound on?",
+        "content": "",
+        "media": "./assets/mock/mock-audio.mp3",
+        "inputs": [
+          {
+            "label": "Yes, it is.",
+            "type": "button",
+            "value": "Yes",
+            "name": "yes",
+            "target": 4
+          },
+          {
+            "label": "It's not.  Do I need it?",
+            "type": "button",
+            "name": "no",
+            "target": 3
+          },
+          {
+            "label": "Test my sound.",
+            "type": "button",
+            "name": "test",
+            "target": 2
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Sound Check",
+        "subtitle": "Can you hear me?",
+        "content": "<p>Testing 1, 2, 3...</p>",
+        "media": "",
+        "inputs": [
+          {
+            "label": "Yes, I can.",
+            "type": "button",
+            "name": "yes",
+            "target": 4
+          },
+          {
+            "label": "Is this really necessary?",
+            "type": "button",
+            "name": "no",
+            "target": 3
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "content": "<p>The interactive coaching session I'd like to lead you through is designed as a conversation. If you're not able to use sound right now, turn on your closed captions.  I'll begin our session in just a few moments.</p>",
+        "inputs": [
+          {
+            "label": "Understood.  Let's get started!",
+            "type": "button",
+            "name": "yes",
+            "target": 4
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Hi, I'm Malcom",
+        "subtitle": "Let's get started",
+        "content": "<p>Hi, I’m Malcom.  And before we talk about your wellness goals, I want you to know that I’m not here to give you health advice.  I’m not here to tell you how important it is to eat healthy or how important it is to exercise.  My purpose here is to help you go from where you are now to where you want to be.  Our session together will expose you to interventions and strategies that have been proven through scientific studies and through real world experiences to help people reach their wellness goals.  So, let's get started with some simple questions.</p>",
+        "media": "./assets/mock/mock-video-intro.mp4",
+        "inputs": [
+          {
+            "label": "Continue",
+            "type": "button",
+            "name": "continue",
+            "target": 5
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "First...",
+        "subtitle": "How much control do you think you have over your health?",
+        "content": "",
+        "media": "",
+        "inputs": [
+          {
+            "label": "I have very little to no control",
+            "type": "button",
+            "name": "one",
+            "target": 6
+          },
+          {
+            "label": "My health controls me a bit more than I control it",
+            "type": "button",
+            "name": "two",
+            "target": 6
+          },
+          {
+            "label": "About half of my health is within my control.",
+            "type": "button",
+            "name": "three",
+            "target": 6
+          },
+          {
+            "label": "I am much more in control of my health than it is of me.",
+            "type": "button",
+            "name": "four",
+            "target": 6
+          },
+          {
+            "label": "Absolutely!  I'm in complete control.",
+            "type": "button",
+            "name": "five",
+            "target": 6
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Got it",
+        "media": "",
+        "inputs": [
+          {
+            "label": "Continue",
+            "type": "button",
+            "name": "continue",
+            "target": 7
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Now thinking back",
+        "subtitle": "How many hours do you sleep each night?",
+        "media": "",
+        "inputs": [
+          {
+            "label": "Average amount of sleep",
+            "type": "text",
+            "name": "sleep"
+          },
+          {
+            "label": "Continue",
+            "type": "button",
+            "name": "continue",
+            "target": 6
+          }
+        ]
+      }
+    ]
+  }
+}
